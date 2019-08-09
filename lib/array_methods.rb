@@ -5,12 +5,13 @@ end
 def using_sort(array)
  array = ["wow", "I", "am", "really", "learning", "arrays!"]
  array.sort
- => [I", "am", "really", "learning", "arrays!", "wow"]
+  => ["I", "am", "really", "learning", "arrays!", "wow"]
 end
 
 def using_reverse(array)
-  array = ["wow", "I", "am", "really", "learning", "arrays!"]
-  array.reverse
+ array = ["wow", "I", "am", "really", "learning", "arrays!"]
+ array.reverse 
+  => ["arrays!", "I", "am", "really", "learning", "wow"]
   
 end
 
